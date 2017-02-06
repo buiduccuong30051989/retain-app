@@ -3,9 +3,10 @@ import { BrowserModule } from '@angular/platform-browser';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
 import { App } from './app';
-import { Main } from './app/containers';
+import { Main, Notes } from './app/containers';
+import { AppBar, NoteCard } from './app/ui';
 @NgModule({
-   declarations: [App,Main],
+   declarations: [App,Main,AppBar,NoteCard,Notes],
    imports : [ BrowserModule ],
    bootstrap : [App] 
    
